@@ -10,8 +10,7 @@ A Jupyter Notebook–based exploration and visualization of Indian general elect
 - [Usage Instructions](#usage-instructions)  
 - [Directory Structure](#directory-structure)  
 - [Dependencies](#dependencies)  
-- [License](#license)  
-- [Contributions](#contributions)
+
 
 ## Introduction
 
@@ -55,6 +54,10 @@ source venv/bin/activate  # or `venv\Scripts\activate` on Windows
 pip install -r requirements.txt  # or `pip install pandas matplotlib seaborn` if no file
 jupyter notebook Indian_Election_Data_Analysis.ipynb
 
+exit
+```
+
+## Directory Structure
 
 Indian-Election-Analysis-2009-14/
 ├── Indian_Election_Data_Analysis.ipynb     # Main analytical notebook
@@ -62,4 +65,9 @@ Indian-Election-Analysis-2009-14/
 ├── requirements.txt                        # Python dependencies (optional)
 └── LICENSE                                 # MIT License
 
+## Dependencies
 
+Key Python libraries likely needed:
+- pandas — for data manipulation
+- matplotlib / seaborn — for visualization
+- jupyter — to run the notebook
